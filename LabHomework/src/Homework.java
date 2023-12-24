@@ -117,7 +117,7 @@ public class Homework {
     }
 
     public static int findSumOfDigitsRecursive(int number) {
-        //System.out.println("This is method findSumOfDigitsRecursive:");
+        // System.out.println("This is method findSumOfDigitsRecursive:");
 
         if (number == 0) {
             return 0;
@@ -184,7 +184,7 @@ public class Homework {
             case 3:
                 findSumofDigits();
                 break;
-                case 4:
+            case 4:
                 Scanner in = new Scanner(System.in);
                 System.out.println("This is method findSumOfDigitsRecursive:");
                 System.out.print("Enter a non-negative number:");
