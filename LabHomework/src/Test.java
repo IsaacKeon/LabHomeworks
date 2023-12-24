@@ -11,7 +11,7 @@ public class Test {
 
                 "https://tse1.mm.bing.net/th?id=OIP.JPllmkWBqX_ALvUO_DAnZwHaE7&pid=Api&P=0&h=220");
 
-        JOptionPane.showMessageDialog(null, "Guitar!", "Landscape",
+        JOptionPane.showMessageDialog(null, "Mountain!", "Landscape",
 
                 JOptionPane.PLAIN_MESSAGE, new ImageIcon(imageLocation));
 
