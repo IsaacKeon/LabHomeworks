@@ -4,8 +4,6 @@ public class SupermarketAwardsCoupons {
 
 	public static void main(String[] args) {
 
-		System.out.println("Myname:" + "Isa Kaan KARABULUT" + " and Student ID:" + "210208003");
-
 		try (Scanner in = new Scanner(System.in)) {
             double spent;
             double coupon;
