@@ -39,8 +39,10 @@ public class Homework {
         int num = in.nextInt();
 
         double[] values = new double[num];
-        double largest = 0;
-        int i;
+        int i = 0;
+        double largest = values[i];
+        
+        System.out.println(largest);
 
         for (i = 0; i < values.length; i++) {
             System.out.print("Please enter number " + (i + 1) + ": ");
@@ -133,11 +135,11 @@ public class Homework {
         System.out.print("Enter any string : ");
         String msg = in.nextLine();
         System.out.print("+");
-        for (int i = 0; i < msg.length(); i++) {
+        for (int i = 0; i < msg.length() + 2; i++) {
             System.out.print("-");
         }
-        System.out.print("+");
-        System.out.println("\n|" + msg + "|");
+        System.out.println("+");
+        System.out.println("|" + msg + "|");
 
         System.out.print("+");
         for (int i = 0; i < msg.length(); i++) {
